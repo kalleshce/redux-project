@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+.todo-container {
+    display: flex;
+    background-color: #444;
+    justify-content: space-between;
+    align-items: center;
+      display: flex;
+      justify-content: space-between;
+      margin: 6px 60px;
+      font-family: 'Roboto Mono', monospace;
+      border-radius: 4px;
+
+  }
+  
+  .btn {
+    border-radius: 30px;
+    min-width: 100px;
+    padding: 10px;
+    border: none;
+    background-color: #fff;
+    margin: 0 20px;
+  }
+  
+  .btn-complete {
+    border-radius: 2px solid #458d71;
+    color: #049804;
+  }
+  
+  .btn-delete {
+    border-radius: 2px solid #d88281;
+    color: #b71010;
+  }
+  
+  .task-name {
+    font-size: 24px;
+    color:#f90;
+    padding-left: 10px;
+
+  }
+  
+  .task-description {
+    font-size: 16px;
+    color: #fff;
+    padding-left: 10px;
+  }
